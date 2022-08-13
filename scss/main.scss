@@ -1,0 +1,74 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+
+@import "../node_modules/bootstrap/scss/variables";
+
+$theme-colors:(
+    'qizil':rgb(99, 1, 1),
+    'sariq':yellow,
+    'danger':rgb(245, 87, 87),
+    'light':rgb(212, 212, 212)
+);  
+
+// $theme-colors:map-merge($theme-colors, $my-colors);
+
+
+$alert-padding-y:20px;
+$alert-padding-x:20px;
+$alert-border-radius:0px;
+$alert-bg-scale:-60%;
+$alert-border-scale:0;
+$alert-color-scale:-90%;
+$alert-padding-dissmis:5px;
+
+$carousel-indicator-width:15px;
+$carousel-indicator-height:15px;
+$carousel-indicator-active-bg:black;
+$carousel-indicator-active-opacity:0.7;
+
+$btn-border-radius:0px;
+$btn-padding-x:20px;
+
+
+$modal-content-color:red;
+$modal-backdrop-opacity:0.7;
+$modal-backdrop-bg:rgb(0, 174, 255);
+$modal-sm:200px;
+$modal-md:200px;
+$modal-fade-transform:translate(0px, 0) scale(0);
+
+
+$navbar-toggler-padding-y:5px;
+$navbar-toggler-padding-x:5px;
+$navbar-toggler-transition:none;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.carousel-indicators > button{
+    border-radius: 50%;
+}
+
+.navbar-toggler{
+    border:none;
+    &:focus{
+        outline: none!important;
+        box-shadow: none!important;
+    }
+    }
+
+// $theme-colors:map-merge($theme-colors, $my-colors);
+
+
+
+// @import "../node_modules/bootstrap/scss/helpers";
+// @import "../node_modules/bootstrap/scss/maps";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/root";
+
+// @import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/type";
+
+
+// @import "../node_modules/bootstrap/scss/grid";
+// @import "../node_modules/bootstrap/scss/containers";
+// @import "../node_modules/bootstrap/scss/alert";
